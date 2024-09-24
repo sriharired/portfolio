@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 const FuturisticHeroContainer = styled.div`
   position: relative;
   height: 100vh;
-  padding: 50px 20px; /* Added padding for the container */
-  background: #0f2027; /* fallback for old browsers */
+  padding: 30px 20px;
+  background: #0f2027;
   background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
   display: flex;
@@ -19,7 +19,7 @@ const FuturisticHeroContainer = styled.div`
 `;
 
 const GlitchText = styled(motion.h1)`
-  font-size: 3.0rem; /* Updated font size */
+  font-size: 3.0rem;
   font-weight: 800;
   text-transform: uppercase;
   position: relative;
