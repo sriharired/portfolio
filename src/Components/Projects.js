@@ -94,22 +94,17 @@ const projects = [
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio website to showcase my skills and projects.',
-    link: 'https://your-portfolio-link.com',
+    link: 'https://sriharired.github.io/portfolio/',
   },
   {
-    title: 'Machine Learning Project',
-    description: 'A project utilizing machine learning to predict housing prices.',
-    link: 'https://your-ml-project-link.com',
+    title: 'Metro Management System',
+    description: 'A project utilizing data base to do curd operations of metro.',
+    link: '#metromanagement',
   },
   {
-    title: 'E-commerce Platform',
-    description: 'A fully functional e-commerce website with payment integration.',
-    link: 'https://your-ecommerce-link.com',
-  },
-  {
-    title: 'Weather App',
-    description: 'A web application that provides real-time weather information and forecasts.',
-    link: 'https://your-weather-app-link.com',
+    title: 'Air Quality Predictor',
+    description: 'A react web application that provides air quality information based on data taken.',
+    link: '#AQIprediction',
   },
   {
     title: 'Chat Application',
