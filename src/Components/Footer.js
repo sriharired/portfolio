@@ -94,7 +94,7 @@ const Footer = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <SocialIconLink
-            href="https://www.linkedin.com/in/your-linkedin-profile"
+            href="www.linkedin.com/in/sri-hari-reddy-08207314b"
             target="_blank"
             aria-label="LinkedIn"
             rel="noopener noreferrer"
@@ -104,7 +104,7 @@ const Footer = () => {
             <FaLinkedin />
           </SocialIconLink>
           <SocialIconLink
-            href="https://github.com/your-github-profile"
+            href="https://github.com/sriharired/"
             target="_blank"
             aria-label="GitHub"
             rel="noopener noreferrer"
@@ -116,7 +116,7 @@ const Footer = () => {
           <SocialIconLink
             href="https://twitter.com/your-twitter-handle"
             target="_blank"
-            aria-label="Twitter"
+            aria-label="Instagram"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
