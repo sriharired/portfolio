@@ -87,6 +87,7 @@ const ProjectLink = styled.a`
     background: #0575e6;
     transform: translateY(-5px);
     color: #ffffff;
+    cursor: "pointer";
   }
 `;
 
