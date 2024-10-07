@@ -108,9 +108,9 @@ const projects = [
     link: '#AQIprediction',
   },
   {
-    title: 'Chat Application',
-    description: 'A real-time chat application with user authentication and group chat functionality.',
-    link: 'https://your-chat-app-link.com',
+    title: 'Online yoga training center',
+    description: 'A react application to book virtual yoga slots and adding course.',
+    link: 'https://online-yoga-training-center.vercel.app/',
   },
 ];
 
