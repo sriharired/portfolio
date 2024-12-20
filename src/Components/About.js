@@ -151,7 +151,7 @@ const About = () => {
         </TextContainer>
       </ContentContainer>
       <SkillsContainer>
-        <h3>Skills</h3>
+        <h3 style={{ marginLeft: '30px', marginBottom: '30px' }}>Skills</h3>
         {skills.map((skill, index) => (
           <Skill
             key={index}
