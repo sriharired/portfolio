@@ -57,6 +57,7 @@ const ProjectCard = styled(motion.div)`
     transform: skewX(-20deg);
     transition: all 0.5s ease;
     opacity: 0;
+    pointer-events: none; /* Prevents interaction with this pseudo-element */
   }
 `;
 
@@ -83,11 +84,13 @@ const ProjectLink = styled.a`
   border-radius: 25px;
   text-decoration: none;
   transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  position: relative;
+  z-index: 1; /* Ensure this is above the ::before pseudo-element */
   &:hover {
     background: #0575e6;
     transform: translateY(-5px);
     color: #ffffff;
-    cursor: pointer; /* Corrected cursor */
+    cursor: pointer;
   }
 `;
 
@@ -105,7 +108,7 @@ const projects = [
   {
     title: 'Air Quality Predictor',
     description: 'A react web application that provides air quality prediction using machine learning and weather data.',
-    link: '#airquality',
+    link: '#airquality',  // Update with actual link if needed
   },
   {
     title: 'Online yoga training center',
