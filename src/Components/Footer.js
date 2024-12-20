@@ -129,7 +129,7 @@ const Footer = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
         >
-          &copy; {new Date().getFullYear()} Putha Sri Hari Reddy. All rights reserved.
+          &copy; {new Date().getFullYear()} Designed byPutha Sri Hari Reddy. All rights reserved.
         </FooterText>
       </FooterContent>
     </FooterContainer>
