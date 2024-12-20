@@ -87,7 +87,7 @@ const ProjectLink = styled.a`
   position: relative;
   z-index: 1; /* Ensure this is above the ::before pseudo-element */
   &:hover {
-    background: #0575e6;
+    background: #00f260;
     transform: translateY(-5px);
     color: #ffffff;
     cursor: pointer;
