@@ -87,7 +87,7 @@ const ProjectLink = styled.a`
     background: #0575e6;
     transform: translateY(-5px);
     color: #ffffff;
-    cursor: "pointer";
+    cursor: pointer; /* Corrected cursor */
   }
 `;
 
@@ -105,7 +105,7 @@ const projects = [
   {
     title: 'Air Quality Predictor',
     description: 'A react web application that provides air quality prediction using machine learning and weather data.',
-    link: '#AQIprediction',
+    link: '#airquality',
   },
   {
     title: 'Online yoga training center',
