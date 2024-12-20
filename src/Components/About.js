@@ -117,8 +117,8 @@ const skillVariants = {
 };
 
 const About = () => {
-  const skills = ['React', 'JavaScript', 'Node.js', 'CSS', 'HTML', 'Python', 'Machine Learning'];
-  const profileImage = `${process.env.PUBLIC_URL}/profilepic.jpg`; // Replace with your image URL
+  const skills = ['React', 'HTML', 'CSS','JavaScript', 'Node.js', 'Java', 'Python','Artificial Intelligence', 'Machine Learning'];
+  const profileImage = `${process.env.PUBLIC_URL}/profilepic.jpg`; 
 
   return (
     <AboutSection id="about">
@@ -151,6 +151,7 @@ const About = () => {
         </TextContainer>
       </ContentContainer>
       <SkillsContainer>
+        <h3>Skills</h3>
         {skills.map((skill, index) => (
           <Skill
             key={index}
