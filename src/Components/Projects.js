@@ -104,7 +104,7 @@ const projects = [
   },
   {
     title: 'Air Quality Predictor',
-    description: 'A react web application that provides air quality information based on data taken.',
+    description: 'A react web application that provides air quality prediction using machine learning and weather data.',
     link: '#AQIprediction',
   },
   {
