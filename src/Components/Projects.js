@@ -93,14 +93,14 @@ const ProjectLink = styled.a`
 
 const projects = [
   {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio website to showcase my skills and projects.',
-    link: 'https://sriharired.github.io/portfolio/',
+    title: 'Detecting Pneumonia Using X-Ray Images',
+    description: 'Developed a machine learning model to predict Pneumonia using X-rays. Models used ResNet50, MobileNet V2, and Custom CNN.',
+    link: 'https://github.com/sriharired/AIML-For-Pneumonia-Detetion',
   },
   {
-    title: 'Metro Management System',
-    description: 'A project utilizing data base to do curd operations of metro.',
-    link: '#metromanagement',
+    title: 'Indian History Mythologies Website',
+    description: 'Developed a fully interactive website with quiz functionality using React.js, JSON, and standardweb technologies.',
+    link: 'https://github.com/sriharired/IHM',
   },
   {
     title: 'Air Quality Predictor',
