@@ -136,7 +136,7 @@ const Projects = () => {
           >
             <ProjectTitle>{project.title}</ProjectTitle>
             <ProjectDescription>{project.description}</ProjectDescription>
-            <ProjectLink href={project.link} target="_blank" rel="noopener noreferrer">
+            <ProjectLink href={project.link} target="_blank">
               View Project
             </ProjectLink>
           </ProjectCard>
