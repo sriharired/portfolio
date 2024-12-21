@@ -270,7 +270,7 @@ const HeroSection = () => {
         Innovative Solutions for a Digital World
       </FuturisticSubText>
       <NeonButton
-        href="https://drive.google.com/file/d/1hkYRiZSVHBT6gKD-5xAdAKYlxfUohIoA/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1hkYRiZSVHBT6gKD-5xAdAKYlxfUohIoA/view?usp=sharing"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 1, duration: 0.5 }}
