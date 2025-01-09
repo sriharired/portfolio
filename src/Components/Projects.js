@@ -108,7 +108,12 @@ const projects = [
   {
     title: 'Air Quality Predictor',
     description: 'A react web application that provides air quality prediction using machine learning and weather data.',
-    link: '#airquality',  // Update with actual link if needed
+    link: '#airquality',
+  },
+  {
+    title: 'Metro Management System',
+    description:'A JSP web application for metro management like adding/update/delete stations,traines,routes from admin. User Can search trains, route, timmings etc. it has special feauture of providing or check metro card balance.',
+    link:'https://github.com/sriharired/metrorail-management-system',
   },
   {
     title: 'Online yoga training center',
